@@ -5,18 +5,6 @@
 # Out source Libraries #
 ########################
 /Libraries
-/Allegro_Framework_JCS/Allegro
-/Boost
-/Box2D
-/DirectX_3D_v9_Framework_JCS/DirectX SDK
-/DirectXTK
-/GameTool_JCS/rapidxml
-/LuaEngine_JCS/Lua
-/LuaEngine_JCS/LuaBridge
-/OpenGL_Framework_JCS/OpenGL
-/SDL_Framework_JCS/SDL
-/SFML_Framework_JCS/SFML
-/Vulkan_Framework_JCS/VulkanSDK
 
 #################
 # Build results #
