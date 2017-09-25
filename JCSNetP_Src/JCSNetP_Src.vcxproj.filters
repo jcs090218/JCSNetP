@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Core\JCSNetP_SocketAddress.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\JCSNetP_SocketAddressFactory.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\JCSNetP_TCPSocket.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\JCSNetP_UDPSocket.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\JCSNetP_Util.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Support\JCSNetP_StringUtil.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Support\JCSNetP_SocketUtil.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\JCSNetP_LinkingContext.cpp" />
+    <ClCompile Include="Core\Stream\JCSNetP_InputMemoryBitStream.cpp">
+      <Filter>Core\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Stream\JCSNetP_InputMemoryStream.cpp">
+      <Filter>Core\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Stream\JCSNetP_OutputMemoryBitStream.cpp">
+      <Filter>Core\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Stream\JCSNetP_OutputMemoryStream.cpp">
+      <Filter>Core\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Manager\JCSNetP_TCPNetworkManager.cpp" />
+    <ClCompile Include="Core\Manager\JCSNetP_UDPNetworkManager.cpp" />
+    <ClCompile Include="Core\JCSNetP_IoSession.cpp" />
+    <ClCompile Include="Core\JCSNetP_SocketAcceptor.cpp" />
+    <ClCompile Include="Core\JCSNetP_SocketConnector.cpp" />
+    <ClCompile Include="Support\JCSNetP_WStringUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\JCSNetP_Util.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ByteSwap.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\JCSNetP_SocketAddress.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\JCSNetP_SocketAddressFactory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\JCSNetP_TCPSocket.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\JCSNetP_UDPSocket.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\JCSNetP_Defines.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\JCSNetP_Name.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\JCSNetP_StringUtil.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\JCSNetP_SocketUtil.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="JCSNetP_StdAfx.h" />
+    <ClInclude Include="JCSNetP.h" />
+    <ClInclude Include="Core\JCSNetP_LinkingContext.h" />
+    <ClInclude Include="Core\Stream\JCSNetP_InputMemoryBitStream.h">
+      <Filter>Core\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Stream\JCSNetP_InputMemoryStream.h">
+      <Filter>Core\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Stream\JCSNetP_OutputMemoryBitStream.h">
+      <Filter>Core\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Stream\JCSNetP_OutputMemoryStream.h">
+      <Filter>Core\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\JCSNetP_TCPNetworkManager.h" />
+    <ClInclude Include="Core\Manager\JCSNetP_UDPNetworkManager.h" />
+    <ClInclude Include="Core\JCSNetP_IoSession.h" />
+    <ClInclude Include="Core\JCSNetP_SocketAcceptor.h" />
+    <ClInclude Include="Core\Enum\JCSNetP_SocketType.h" />
+    <ClInclude Include="Core\JCSNetP_SocketConnector.h" />
+    <ClInclude Include="Enum\JCSNetP_SocketType.h" />
+    <ClInclude Include="Interface\JCSNetP_ProtocolCodecFactory.h" />
+    <ClInclude Include="Interface\JCSNetP_ProtocolDecoder.h" />
+    <ClInclude Include="Interface\JCSNetP_ProtocolEncoder.h" />
+    <ClInclude Include="Enum\SocketAddressFamily.h" />
+    <ClInclude Include="Interface\JCSNetP_IoHandlerAdapter.h" />
+    <ClInclude Include="Support\JCSNetP_SafePointer.h" />
+    <ClInclude Include="Core\JCSNetP_Constants.h" />
+    <ClInclude Include="Support\JCS_vld.h" />
+    <ClInclude Include="Support\JCSNetP_WStringUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{df53926e-5ceb-4a25-8fc0-5b8a89681d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{7e824ec7-00fa-4f01-ba6d-1f24046a0738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Stream">
+      <UniqueIdentifier>{0ee72391-9f90-48a9-9f76-a382f54f1210}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
