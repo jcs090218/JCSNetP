@@ -218,7 +218,7 @@ int JCSNetP_TCPSocket::SetNonBlockingMode(bool inShouldBeNonBlocking)
 #else
     int flags = fcntl(m_socket, F_GETFL, 0);
     flags = inShouldBeNonBlocking ? (flags | O_NONBLOCK) : (flags & ~O_NONBLOCK);
-    int result = fcntl(mSocket, F_SETFL, flags);
+    int result = fcntl(m_socket, F_SETFL, flags);
 #endif
 
     if (result == SOCKET_ERROR)
