@@ -7,6 +7,9 @@ $Notice: See LICENSE.txt for modification and distribution information
 ========================================================================
 
 
+2017-12-06
+* Fixed C++ convention / style guide. (JCSNetP)
+
 2017-04-20
 * JCSNetP_WStringUtil implemented. (JCSNetP)
 
