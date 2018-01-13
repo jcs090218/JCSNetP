@@ -9,6 +9,7 @@ $Notice: See LICENSE.txt for modification and distribution information
 
 2018-01-13
 * Add gtags configuration for unix-like programmers. (JCSNetP)
+* Add makefile for gcc/unix-like OS. (JCSNetP)
 
 2017-12-06
 * Fixed C++ convention / style guide. (JCSNetP)
