@@ -1,6 +1,10 @@
 # ignore the following folders
 /.git
 
+# ignore log and todos.
+TODO(jenchieh).txt
+Update_Log.txt
+
 # Out source Libraries
 /Libraries
 
